@@ -13,16 +13,16 @@ const Navbar = () => {
     <>
       <Nav>
         <Bars />
-  
+
         <NavMenu>
-          <NavLink to='/about' >
-            About
+          <NavLink to='/index' >
+            Home
           </NavLink>
-          <NavLink to='/events' >
-            Events
+          <NavLink to='/contacts' >
+            Bookings
           </NavLink>
-          <NavLink to='/annual' >
-            Annual Report
+          <NavLink to='/profile' >
+            Profile
           </NavLink>
           <NavLink to='/team' >
             Teams
@@ -31,7 +31,7 @@ const Navbar = () => {
             Blogs
           </NavLink>
           <NavLink to='/sign-up' >
-            Sign Up
+            Register
           </NavLink>
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
