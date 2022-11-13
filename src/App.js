@@ -10,6 +10,7 @@ import Blogs from './pages/blogs';
 import SignUp from './pages/signup';
 
 import BookDrone from './pages/bookdrone';
+import ManageDrone from './pages/managedrone';
   
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path='/blogs' element={<Blogs/>} />
         <Route path='/sign-up' element={<SignUp/>} />
         <Route path='/bookdrone' element={<BookDrone/>} />
+        <Route path='/managedrone' element={<ManageDrone/>} />
       </Routes>
     </Router>
   );
