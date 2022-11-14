@@ -111,7 +111,6 @@ const DroneCat1 = () => {
                     </NavLink>
                 </div>
             </div>   
-            
             <div id="right">
                 <div className="button-sign-up1 flex-row-vcenter-hcenter">
                     <NavLink className="txt-856" to='/finishedBookingDataCollection' >
