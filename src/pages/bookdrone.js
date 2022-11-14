@@ -1,5 +1,6 @@
 import React from 'react';
-import "./styles.css"
+import "./sidebar.css"
+import "./bookdrone.css"
 import "./card.css"
 import {
 
@@ -112,40 +113,47 @@ const BookDrone = () => {
               <p className="txt-706">
                 Please select the farmland you would like your drone service on.
               </p>
+            </div>
 
             </div>
+            <div className='do-center'>
             <div id="left">
-              <div className="cropcard-enabled-1 flex-col-hstart-vend">
-                <div className="title-username flex-col-hstart-vstart">
-                  <p className="txt-8107">West Plot A</p>
-                  <p className="txt-7410">Crop 1</p>
+
+                
+                <div className="cropcard-enabled-1 flex-col-hstart-vend">
+                    <div className="title-username flex-col-hstart-vstart">
+                    <p className="txt-8107">West Plot A</p>
+                    <p className="txt-7410">Crop 1</p>
+                    </div>
                 </div>
-              </div>
-              <div className="cropcard-enabled-2 flex-col-hstart-vend">
-                <div className="title-username flex-col-hstart-vstart">
-                  <p className="txt-8107">West Plot B</p>
-                  <p className="txt-7410">Crop 2</p>
+                <div className="cropcard-enabled-2 flex-col-hstart-vend">
+                    <div className="title-username flex-col-hstart-vstart">
+                    <p className="txt-8107">West Plot B</p>
+                    <p className="txt-7410">Crop 2</p>
+                    </div>
                 </div>
-              </div>
+                
             </div>
             <div id="right">
-              <div className="cropcard-enabled-3  flex-col-hstart-vend">
-                <div className="title-username flex-col-hstart-vstart">
-                  <p className="txt-8107">West Plot C</p>
-                  <p className="txt-7410">Crop 3</p>
+                <div className="cropcard-enabled-3  flex-col-hstart-vend">
+                    <div className="title-username flex-col-hstart-vstart">
+                    <p className="txt-8107">West Plot C</p>
+                    <p className="txt-7410">Crop 3</p>
+                    </div>
                 </div>
-              </div>
-              <div className="cropcard-enabled-4  flex-col-hstart-vend">
-                <div className="title-username flex-col-hstart-vstart">
-                  <p className="txt-8107">West Plot D</p>
-                  <p className="txt-7410">Crop 4</p>
+                <div className="cropcard-enabled-4  flex-col-hstart-vend">
+                    <div className="title-username flex-col-hstart-vstart">
+                    <p className="txt-8107">West Plot D</p>
+                    <p className="txt-7410">Crop 4</p>
+                    </div>
                 </div>
-              </div>
+            </div>
+            </div>
             </div>
 
 
 
-          </div>
+         
           <div id="bottom">
             <div id="left"></div>
             <div id="center">
@@ -163,7 +171,7 @@ const BookDrone = () => {
 
       </div>
 
-    </div>
+    
 
 
   );

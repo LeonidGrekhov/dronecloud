@@ -41,13 +41,15 @@ const DroneCat1 = () => {
                 className="active-indicator-1"
               />
             </div>
-            <p className="txt-817">Step 2: Drone Catalog</p>
+        
+            
+           
+        </div>
+        <p className="txt-817">Step 2: Drone Catalog</p>
             
               <p className="txt-706">
                 Select a service and chose your drone.
               </p>
-           
-        </div>
         <div className="rectangle-10">
             <div className="service-dropdown flex-col-hstart-vstart">
                 <p className="txt-655">Data Collection</p>
