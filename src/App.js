@@ -11,6 +11,7 @@ import SignUp from './pages/signup';
 
 import BookDrone from './pages/bookdrone';
 import ManageDrone from './pages/managedrone';
+import AddDrone from './pages/adddrone';
   
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path='/sign-up' element={<SignUp/>} />
         <Route path='/bookdrone' element={<BookDrone/>} />
         <Route path='/managedrone' element={<ManageDrone/>} />
+        <Route path='/adddrone' element={<AddDrone/>} />
       </Routes>
     </Router>
   );
