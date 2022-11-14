@@ -101,10 +101,10 @@ const DroneCat1 = () => {
           </div>
 
         </div>
-        <div className='container'>
-        <div id="bottom">
+        <div id='container2'>
+        
             <div id="left">
-                <div className="button-sign-up flex-row-vcenter-hcenter">
+                <div className="button-sign-up1 flex-row-vcenter-hcenter">
                     
                     <NavLink className="txt-856" to='/bookdrone' >
                     Back
@@ -118,7 +118,7 @@ const DroneCat1 = () => {
                     </NavLink>
                 </div>
             </div>  
-        </div>
+        
         </div>
         </div>
         
