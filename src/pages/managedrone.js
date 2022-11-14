@@ -47,7 +47,7 @@ const ManageDrone = () => {
             />
             
             <NavLink className="txt-240" to='/bookdrone' >
-            Drone Management
+             Management
           </NavLink>
             
             <img
@@ -75,9 +75,12 @@ const ManageDrone = () => {
         <div id="right">
         <div className="product">
 
+        
+
+        <p className="txt-853">All Drones</p>
         <div className="group-139">
-        <div className="group-761">
-        <p className="txt-256">Add Drone</p>
+        <div className="group-373">
+        <p className="txt-9107">Add Drone</p>
         <img
           src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/7vhd78bvxdn-1818%3A2682?alt=media&token=820e35c1-17e7-4cdc-a8ad-8541edb99e87"
           alt="Not Found"
@@ -85,8 +88,6 @@ const ManageDrone = () => {
         />
         </div>
         </div>
-
-        <p className="txt-853">All Drones</p>
         <div className="group-221 flex-col">
           <div className="group-21 flex-row">
             <p className="txt-177">Drone ID#</p>
