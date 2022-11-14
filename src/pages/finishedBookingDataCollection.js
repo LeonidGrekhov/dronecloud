@@ -1,18 +1,17 @@
 import React from "react"
 import "./finishBookingDataCollect.css"
 
+import {
+  
+  NavLink
+ 
+} from '../components/Navbar/NavbarElements';
+
 export default function FinishedBookingDataCollection() {
   return (
     <div className="finished-booking-data-collection flex-col-hstart-vstart clip-contents">
       <p className="txt-864">Select Role to Register As</p>
-      <div className="header flex-row-vstart-hstart clip-contents">
-        <p className="txt-311">Home Contact Profile</p>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/ng4maxr4gnc-1838%3A2980?alt=media&token=03b08563-906e-415e-9da6-cfd1f39bfadf"
-          alt="Not Found"
-          className="search"
-        />
-      </div>
+      
       <div className="group-652 flex-col">
         <div className="contents flex-col-hstart-vstart">
           <div className="progress-bar flex-row-vcenter-hstart">
@@ -33,7 +32,10 @@ export default function FinishedBookingDataCollection() {
         <p className="txt-279">Step 5: Your booking is confirmed</p>
       </div>
       <div className="button-sign-up flex-row-vcenter-hcenter" >
-        <p className="txt-228">Return to Dashboard</p>
+        
+        <NavLink className="txt-228" to='/finishedBookingSurveillance' >
+        Confirm booking
+                    </NavLink>
       </div>
       <div className="group-81010">
         <div className="rectangle-36" />

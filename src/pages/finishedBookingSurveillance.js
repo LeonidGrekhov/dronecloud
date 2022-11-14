@@ -5,14 +5,7 @@ export default function FinishedBookingSurveillance() {
   return (
     <div className="finished-booking-surveillance flex-col-hstart-vstart clip-contents">
       <p className="txt-205">Select Role to Register As</p>
-      <div className="header flex-row-vstart-hstart clip-contents">
-        <p className="txt-897">Home Contact Profile</p>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/r7e2b45iv3j-1838%3A3065?alt=media&token=d4c8862f-8198-46eb-88e7-88231708b144"
-          alt="Not Found"
-          className="search"
-        />
-      </div>
+     
       <div className="group-346 flex-col">
         <div className="contents flex-col-hstart-vstart">
           <div className="progress-bar flex-row-vcenter-hstart">
