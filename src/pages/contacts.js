@@ -1,15 +1,15 @@
 import React from 'react';
 import "./styles.css"
 import {
-  
+
   NavLink
- 
+
 } from '../components/Navbar/NavbarElements';
 const Contacts = () => {
   return (
     <div id="container">
       <div div id="left">
-      <div  className="group-31 flex-row">
+        <div className="group-31 flex-row">
           <img
             src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/errwlaicvqu-1838%3A2694?alt=media&token=d0a3af89-9a2e-497e-8d86-37fd76bdcb59"
             alt="Not Found"
@@ -45,18 +45,18 @@ const Contacts = () => {
               alt="Not Found"
               className="discount-shape-2"
             />
-            
+
             <NavLink className="txt-240" to='/bookdrone' >
-            My Bookings
-          </NavLink>
-            
+              My Bookings
+            </NavLink>
+
             <img
               src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/errwlaicvqu-1838%3A2672?alt=media&token=80e10c5e-ed61-4b58-b2e5-d01d0814d01d"
               alt="Not Found"
               className="chevron-right-2"
             />
           </div>
-          
+
         </div>
         <div className="list-menu-3 flex-row">
           <img
@@ -64,46 +64,49 @@ const Contacts = () => {
             alt="Not Found"
             className="icon-24-outline-key-square"
           />
-          <p className="txt-971">Service Reports</p>
+          <NavLink className="txt-971" to='/managedrone' >
+            Management
+          </NavLink>
+
           <img
             src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/errwlaicvqu-1838%3A2682?alt=media&token=4ec1fdce-790b-48cf-b54d-18996fdadb1e"
             alt="Not Found"
             className="chevron-right-2"
           />
         </div>
-        </div>
-        <div id="right">
-        <div className="product">
-        <p className="txt-853">All Bookings</p>
-        <div className="group-221 flex-col">
-          <div className="group-21 flex-row">
-            <p className="txt-177">Service ID#</p>
-            <p className="txt-526">Farmland</p>
-            <p className="txt-139">Land Type</p>
-            <p className="txt-1044">Service</p>
-            <p className="txt-526">Service Time</p>
-            <p className="txt-238 flex-hcenter">Status</p>
-          </div>
-          
-          <div className="line-5" />
-          
-          <div className="line-5" />
-          
-          <div className="line-5" />
-          
-          <div className="line-5" />
-          
-          <div className="line-5" />
-          
-          <div className="line-10" />
-        </div>
-        
       </div>
+      <div id="right">
+        <div className="product">
+          <p className="txt-853">All Bookings</p>
+          <div className="group-221 flex-col">
+            <div className="group-21 flex-row">
+              <p className="txt-177">Service ID#</p>
+              <p className="txt-526">Farmland</p>
+              <p className="txt-139">Land Type</p>
+              <p className="txt-1044">Service</p>
+              <p className="txt-526">Service Time</p>
+              <p className="txt-238 flex-hcenter">Status</p>
+            </div>
+
+            <div className="line-5" />
+
+            <div className="line-5" />
+
+            <div className="line-5" />
+
+            <div className="line-5" />
+
+            <div className="line-5" />
+
+            <div className="line-10" />
+          </div>
 
         </div>
+
+      </div>
     </div>
-    
+
   );
 };
-  
+
 export default Contacts;
