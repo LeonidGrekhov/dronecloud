@@ -17,8 +17,9 @@ import FinishedBookingSurveillance from "./pages/finishedBookingSurveillance"
 import FinishedBookingDataCollection from "./pages/finishedBookingDataCollection"
 
 
-
 import AddDrone from './pages/adddrone';
+import AddDroneTwo from './pages/adddronetwo';
+import ADrone from './pages/adrone';
 
 function App() {
   return (
@@ -40,6 +41,8 @@ function App() {
         <Route path='/finishedBookingDataCollection' element={<FinishedBookingDataCollection/>} />
 
         <Route path='/adddrone' element={<AddDrone/>} />
+        <Route path='/adddronetwo' element={<AddDroneTwo/>} />
+        <Route path='/adrone' element={<ADrone/>} />
 
       </Routes>
     </Router>
