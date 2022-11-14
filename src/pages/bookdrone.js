@@ -5,7 +5,7 @@ import {
 
   NavLink
 
-} from '../components/Navbar/NavbarElements';
+} from '../components/Navbar/NavlinkSidebar';
 const BookDrone = () => {
   return (
     <div id="container">
@@ -61,7 +61,7 @@ const BookDrone = () => {
 
         <div className="list-menu-3 flex-row">
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/e0uffxmnhrk-1525%3A2323?alt=media&token=2fb08d8a-328d-4e6f-8967-e8c4406f69a0"
+            src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/errwlaicvqu-1838%3A2675?alt=media&token=dc3dcaf1-be39-451a-a6c6-9f18ee6e08ed"
             alt="Not Found"
             className="icon-24-outline-key-square"
           />

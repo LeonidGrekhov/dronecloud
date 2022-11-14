@@ -4,8 +4,8 @@ import {
 
   NavLink
 
-} from '../components/Navbar/NavbarElements';
-const Contacts = () => {
+} from '../components/Navbar/NavlinkSidebar';
+const Booking = () => {
   return (
     <div id="container">
       <div div id="left">
@@ -109,4 +109,4 @@ const Contacts = () => {
   );
 };
 
-export default Contacts;
+export default Booking;
