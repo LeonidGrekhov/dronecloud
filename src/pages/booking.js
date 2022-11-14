@@ -1,14 +1,14 @@
 import React from 'react';
-import "./styles.css"
+import "./bookdrone.css"
 import {
 
   NavLink
 
-} from '../components/Navbar/NavbarElements';
-const Contacts = () => {
+} from '../components/Navbar/NavlinkSidebar';
+const Booking = () => {
   return (
     <div id="container">
-      <div div id="left">
+      <div id="left">
         <div className="group-31 flex-row">
           <img
             src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/errwlaicvqu-1838%3A2694?alt=media&token=d0a3af89-9a2e-497e-8d86-37fd76bdcb59"
@@ -100,7 +100,7 @@ const Contacts = () => {
 
             <div className="line-10" />
           </div>
-
+          
         </div>
 
       </div>
@@ -109,4 +109,4 @@ const Contacts = () => {
   );
 };
 
-export default Contacts;
+export default Booking;

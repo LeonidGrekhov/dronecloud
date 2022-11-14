@@ -18,7 +18,7 @@ const Navbar = () => {
           <NavLink to='/index' >
             Home
           </NavLink>
-          <NavLink to='/contacts' >
+          <NavLink to='/booking' >
             Bookings
           </NavLink>
           <NavLink to='/profile' >

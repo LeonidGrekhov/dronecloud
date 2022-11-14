@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages';
-import Contacts from './pages/contacts';
+import Booking from './pages/booking';
 import Profile from './pages/profile';
 import Teams from './pages/team';
 import Blogs from './pages/blogs';
@@ -15,7 +15,8 @@ import ManageDrone from './pages/managedrone';
 
 import FinishedBookingSurveillance from "./pages/finishedBookingSurveillance"
 import FinishedBookingDataCollection from "./pages/finishedBookingDataCollection"
-
+//import ServiceRequestSelectedDroneDetails from "./pages/ServiceRequestSelectedDroneDetails"
+import Contents from "./pages/contents"
 
 import AddDrone from './pages/adddrone';
 import AddDroneTwo from './pages/adddronetwo';
@@ -28,7 +29,7 @@ function App() {
       <Routes>
         <Route path='/' exact element={<Home/>} />
         <Route path='/index' element={<Home/>} />
-        <Route path='/contacts' element={<Contacts/>} />
+        <Route path='/booking' element={<Booking/>} />
         <Route path='/profile' element={<Profile/>} />
         <Route path='/team' element={<Teams/>} />
         <Route path='/blogs' element={<Blogs/>} />
@@ -39,10 +40,11 @@ function App() {
 
         <Route path='/finishedBookingSurveillance' element={<FinishedBookingSurveillance/>} />
         <Route path='/finishedBookingDataCollection' element={<FinishedBookingDataCollection/>} />
-
+        
         <Route path='/adddrone' element={<AddDrone/>} />
         <Route path='/adddronetwo' element={<AddDroneTwo/>} />
         <Route path='/adrone' element={<ADrone/>} />
+        <Route path='/contents' element={<Contents/>} />
 
       </Routes>
     </Router>

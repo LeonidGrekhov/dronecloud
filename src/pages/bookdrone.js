@@ -1,15 +1,16 @@
 import React from 'react';
-import "./styles.css"
+import "./sidebar.css"
+import "./bookdrone.css"
 import "./card.css"
 import {
 
   NavLink
 
-} from '../components/Navbar/NavbarElements';
+} from '../components/Navbar/NavlinkSidebar';
 const BookDrone = () => {
   return (
     <div id="container">
-      <div div id="left">
+      <div id="left">
         <div className="group-31 flex-row">
           <img
             src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/errwlaicvqu-1838%3A2694?alt=media&token=d0a3af89-9a2e-497e-8d86-37fd76bdcb59"
@@ -61,7 +62,7 @@ const BookDrone = () => {
 
         <div className="list-menu-3 flex-row">
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/e0uffxmnhrk-1525%3A2323?alt=media&token=2fb08d8a-328d-4e6f-8967-e8c4406f69a0"
+            src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/errwlaicvqu-1838%3A2675?alt=media&token=dc3dcaf1-be39-451a-a6c6-9f18ee6e08ed"
             alt="Not Found"
             className="icon-24-outline-key-square"
           />
@@ -75,6 +76,7 @@ const BookDrone = () => {
           />
         </div>
       </div>
+
       <div id="right">
 
         <div className="product">
@@ -111,40 +113,47 @@ const BookDrone = () => {
               <p className="txt-706">
                 Please select the farmland you would like your drone service on.
               </p>
+            </div>
 
             </div>
+            <div className='do-center'>
             <div id="left">
-              <div className="cropcard-enabled-1 flex-col-hstart-vend">
-                <div className="title-username flex-col-hstart-vstart">
-                  <p className="txt-8107">West Plot A</p>
-                  <p className="txt-7410">Crop 1</p>
+
+                
+                <div className="cropcard-enabled-1 flex-col-hstart-vend">
+                    <div className="title-username flex-col-hstart-vstart">
+                    <p className="txt-8107">West Plot A</p>
+                    <p className="txt-7410">Crop 1</p>
+                    </div>
                 </div>
-              </div>
-              <div className="cropcard-enabled-2 flex-col-hstart-vend">
-                <div className="title-username flex-col-hstart-vstart">
-                  <p className="txt-8107">West Plot B</p>
-                  <p className="txt-7410">Crop 2</p>
+                <div className="cropcard-enabled-2 flex-col-hstart-vend">
+                    <div className="title-username flex-col-hstart-vstart">
+                    <p className="txt-8107">West Plot B</p>
+                    <p className="txt-7410">Crop 2</p>
+                    </div>
                 </div>
-              </div>
+                
             </div>
             <div id="right">
-              <div className="cropcard-enabled-3  flex-col-hstart-vend">
-                <div className="title-username flex-col-hstart-vstart">
-                  <p className="txt-8107">West Plot C</p>
-                  <p className="txt-7410">Crop 3</p>
+                <div className="cropcard-enabled-3  flex-col-hstart-vend">
+                    <div className="title-username flex-col-hstart-vstart">
+                    <p className="txt-8107">West Plot C</p>
+                    <p className="txt-7410">Crop 3</p>
+                    </div>
                 </div>
-              </div>
-              <div className="cropcard-enabled-4  flex-col-hstart-vend">
-                <div className="title-username flex-col-hstart-vstart">
-                  <p className="txt-8107">West Plot D</p>
-                  <p className="txt-7410">Crop 4</p>
+                <div className="cropcard-enabled-4  flex-col-hstart-vend">
+                    <div className="title-username flex-col-hstart-vstart">
+                    <p className="txt-8107">West Plot D</p>
+                    <p className="txt-7410">Crop 4</p>
+                    </div>
                 </div>
-              </div>
+            </div>
+            </div>
             </div>
 
 
 
-          </div>
+         
           <div id="bottom">
             <div id="left"></div>
             <div id="center">
@@ -162,7 +171,7 @@ const BookDrone = () => {
 
       </div>
 
-    </div>
+    
 
 
   );
