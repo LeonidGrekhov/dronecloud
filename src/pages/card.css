@@ -1,0 +1,167 @@
+
+/* Cropcardenabled */
+
+@import url("https://fonts.googleapis.com/css2?family=Work Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+p {
+  margin: 0;
+}
+
+.flex-col-hstart-vend {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.flex-row-hstart-vend {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+.flex-col-hstart-vstart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.flex-row-hstart-vstart {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+.txt-8107 {
+    font-size: 20px;
+    font-family: Work Sans, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    word-wrap: break-word;
+    text-shadow: 0px 2px 20px rgba(255, 255, 255, 0.3);
+    margin-bottom: 4px;
+  }
+  .txt-7410 {
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    word-wrap: break-word;
+    text-shadow: 0px 2px 20px rgba(255, 255, 255, 0.3);
+  }
+  .title-username {
+    width: fit-content;
+  }
+  .cropcard-enabled-1 {
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background: linear-gradient(0deg, rgba(250, 248, 248, 0.2), rgba(0, 0, 0, 0.2)),
+      url(https://images.pexels.com/photos/96715/pexels-photo-96715.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: 100% 100%;
+    box-shadow: 0px 2px 20px rgba(255, 255, 255, 0.3);
+    width: 343px;
+    height: 207px;
+  }
+  .cropcard-enabled-2 {
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background: linear-gradient(0deg, rgba(250, 248, 248, 0.2), rgba(0, 0, 0, 0.2)),
+      url(https://images.pexels.com/photos/974314/pexels-photo-974314.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: 100% 100%;
+    box-shadow: 0px 2px 20px rgba(255, 255, 255, 0.3);
+    width: 343px;
+    height: 207px;
+  }
+  .cropcard-enabled-3 {
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background: linear-gradient(0deg, rgba(250, 248, 248, 0.2), rgba(0, 0, 0, 0.2)),
+      url(https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: 100% 100%;
+    box-shadow: 0px 2px 20px rgba(255, 255, 255, 0.3);
+    width: 343px;
+    height: 207px;
+  }
+  .cropcard-enabled-4 {
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background: linear-gradient(0deg, rgba(250, 248, 248, 0.2), rgba(0, 0, 0, 0.2)),
+      url(https://images.pexels.com/photos/235725/pexels-photo-235725.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: 100% 100%;
+    box-shadow: 0px 2px 20px rgba(255, 255, 255, 0.3);
+    width: 343px;
+    height: 207px;
+  }
+  .rectangle-10 {
+    background-color: rgba(0, 163, 255, 1);
+    width: 100%;
+    height: 71px;
+    border-radius: 10px;
+  }
+  .flex-col-hstart-vstart {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .flex-row-vend {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  
+  .service-dropdown {
+    position: relative;
+    border-radius: 5px;
+    background-color: rgba(34, 109, 255, 1);
+    width: 155px;
+    height: 44px;
+  }
+  
+  .txt-655 {
+    position: absolute;
+    top: 47.73%;
+    bottom: 18.18%;
+    left: 3.87%;
+    right: 23.87%;
+    font-size: 14px;
+    font-family: Work Sans, sans-serif;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    width: 113px;
+    height: 16px;
+    word-wrap: break-word;
+  }
+  
+  .group-269 {
+    position: absolute;
+    top: 6px;
+    none: 0px;
+    width: 135px;
+    height: 24px;
+  }
+  
+  .txt-581 {
+    font-size: 14px;
+    font-family: Work Sans, sans-serif;
+    font-weight: 400;
+    color: rgba(229, 229, 229, 1);
+    width: 86px;
+    height: 20px;
+    word-wrap: break-word;
+    margin-right: 34px;
+  }
+  
+  .vector {
+    width: 15px;
+    height: 9px;
+  }

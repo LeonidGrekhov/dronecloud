@@ -1,5 +1,6 @@
 import React from 'react';
 import "./styles.css"
+import "./card.css"
 import {
   
   NavLink
@@ -80,7 +81,7 @@ const BookDrone = () => {
         <div className="progress-bar flex-row-vcenter-hstart">
         <img
             className="active-indicator"
-                src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/1bshc0ion01-1966%3A3896?alt=media&token=ef583b83-db35-4bb8-80ff-fe90dbed8861"
+                src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/yqoiaye3p1i-1966%3A6014?alt=media&token=aae51ba2-ba0c-4b05-8d5b-eab123a04bba"
                 alt="Not Found"
                 
               />
@@ -110,11 +111,49 @@ const BookDrone = () => {
               </p>
            
         </div>
+        <div id="left">
+            <div className="cropcard-enabled-1 flex-col-hstart-vend">
+                <div className="title-username flex-col-hstart-vstart">
+                    <p className="txt-8107">West Plot A</p>
+                    <p className="txt-7410">Crop 1</p>
+                </div>
+        </div>
+        <div className="cropcard-enabled-2 flex-col-hstart-vend">
+                <div className="title-username flex-col-hstart-vstart">
+                    <p className="txt-8107">West Plot B</p>
+                    <p className="txt-7410">Crop 2</p>
+                </div>
+        </div>
+        </div>
+        <div id="right">
+            <div className="cropcard-enabled-3  flex-col-hstart-vend">
+                <div className="title-username flex-col-hstart-vstart">
+                    <p className="txt-8107">West Plot C</p>
+                    <p className="txt-7410">Crop 3</p>
+                </div>
+            </div>
+            <div className="cropcard-enabled-4  flex-col-hstart-vend">
+                <div className="title-username flex-col-hstart-vstart">
+                    <p className="txt-8107">West Plot D</p>
+                    <p className="txt-7410">Crop 4</p>
+                </div>
+            </div>
+        </div>
+        
+   
+    
         </div>
         <div id="bottom">
-         <div className="button-sign-up flex-row-vcenter-hcenter">
-            <p className="txt-691">Next</p>
+        <div id="left"></div>   
+        <div id="center">
+           <div className="button-sign-up flex-row-vcenter-hcenter">
+            
+            <NavLink className="txt-691" to='/dronecat1' >
+            next
+          </NavLink>
           </div>   
+        </div>
+        <div id="right"></div>  
         </div>
         
         </div>
