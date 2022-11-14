@@ -3,6 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT Sans:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
 #container{width:100%;}
 #left{float:left;}
 #right{float:right;}
@@ -575,7 +577,7 @@ p {
   background-color: rgba(22, 192, 152, 0.38);
   border: 1px solid rgba(0, 176, 135, 1);
   width: 80px;
-  height: 100%;
+  height: 
 }
 
 .txt-079 {
@@ -1033,4 +1035,39 @@ p {
 .chevron-down-1 {
   width: 18px;
   height: 18px;
+}
+
+/* Group139 */
+
+p {
+  margin: 0;
+}
+
+.group-139 {
+  padding: 906px 0px 0px 1121px;
+  box-sizing: border-box;
+  box-shadow: 0px 16.19px 24.28px rgba(0, 0, 0, 0.06),
+    0px 2.02px 6.07px rgba(0, 0, 0, 0.04), 0px 0px 1.01px rgba(0, 0, 0, 0.04);
+  width: 166.93px;
+  height: 39.46px;
+}
+
+.group-373 {
+  border-radius: 4.05px;
+  background-color: rgba(79, 79, 79, 1);
+  width: 167px;
+  height: 39px;
+}
+
+.txt-9107 {
+  font-size: 14.16px;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  word-wrap: break-word;
+}
+
+.frame-7 {
+  width: 30.35px;
+  height: 30.35px;
 }
