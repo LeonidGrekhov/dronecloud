@@ -1,5 +1,4 @@
 import React from 'react';
-import "./styles.css"
 import "./card.css"
 import "./droneitem.css"
 import {
@@ -102,17 +101,17 @@ const DroneCat1 = () => {
           </div>
 
         </div>
+        <div className='container'>
         <div id="bottom">
             <div id="left">
                 <div className="button-sign-up flex-row-vcenter-hcenter">
-                    <p className="txt-856">Back</p>
+                    
+                    <NavLink className="txt-856" to='/bookdrone' >
+                    Back
+                    </NavLink>
                 </div>
             </div>   
-            <div id="center">
-                <div className="group-881 flex-row">
             
-                </div>  
-            </div>
             <div id="right">
                 <div className="button-sign-up1 flex-row-vcenter-hcenter">
                     <NavLink className="txt-856" to='/finishedBookingDataCollection' >
@@ -121,7 +120,7 @@ const DroneCat1 = () => {
                 </div>
             </div>  
         </div>
-        
+        </div>
         </div>
         
       </div>
