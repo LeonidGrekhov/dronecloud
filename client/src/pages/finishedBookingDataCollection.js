@@ -10,7 +10,7 @@ import {
 export default function FinishedBookingDataCollection() {
   return (
     <div className="finished-booking-data-collection flex-col-hstart-vstart clip-contents">
-      <p className="txt-864">Select Role to Register As</p>
+      <p className="txt-864">Step 5: Your booking is confirmed</p>
       
       <div className="group-652 flex-col">
         <div className="contents flex-col-hstart-vstart">
@@ -29,7 +29,7 @@ export default function FinishedBookingDataCollection() {
             <div className="default-indicator-1" />
           </div>
         </div>
-        <p className="txt-279">Step 5: Your booking is confirmed</p>
+        
       </div>
       <div className="button-sign-up flex-row-vcenter-hcenter" >
         
