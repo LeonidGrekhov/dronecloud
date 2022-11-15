@@ -20,7 +20,7 @@ import Contents from "./pages/contents"
 import ServiceProcessFlow from "./pages/serviceProcessFlow"
 
 import RecordList from './pages/recordList';
-
+import RecordList2 from './pages/recordList2';
 import AddDrone from './pages/adddrone';
 import AddDroneTwo from './pages/adddronetwo';
 import AddDroneThree from './pages/adddronethree';
@@ -53,7 +53,7 @@ function App() {
         <Route path='/contents' element={<Contents/>} />
         <Route path='/serviceProcessFlow' element={<ServiceProcessFlow/>} />
         <Route path='/recordList' element={<RecordList/>} />
-
+        <Route path='/recordList2' element={<RecordList2/>} />
       </Routes>
     </Router>
   );
