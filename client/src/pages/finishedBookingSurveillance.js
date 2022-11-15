@@ -1,6 +1,10 @@
 import React from "react"
 import "./finishbookingstyle.css"
+import {
 
+  NavLink
+
+} from '../components/Navbar/NavbarElements';
 export default function FinishedBookingSurveillance() {
   return (
     <div className="finished-booking-surveillance flex-col-hstart-vstart clip-contents">
@@ -23,10 +27,13 @@ export default function FinishedBookingSurveillance() {
             <div className="default-indicator-1" />
           </div>
         </div>
-        <p className="txt-152">Your booking is confirmed</p>
+
+        <p className="group-652 txt-152">Your booking is confirmed</p>
+
       </div>
+      
       <div className="button-sign-up flex-row-vcenter-hcenter">
-        <p className="txt-721">Return to Dashboard</p>
+      <NavLink className="txt-721" to="/booking">Return to Dashboard</NavLink>
       </div>
       <div className="group-274">
         <div className="group-2101 flex-col">

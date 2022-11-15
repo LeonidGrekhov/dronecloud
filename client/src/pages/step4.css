@@ -11,25 +11,6 @@ p {
     align-items: flex-start;
   }
   
-  .button-sign-up {
-    padding: 19px 9px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    background-color: rgba(26, 52, 71, 1);
-    width: 285.95px;
-    height: 100%;
-    margin-right: 20px 
-  }
-  .button-sign-up1 {
-    padding: 19px 9px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    background-color: rgb(191, 198, 203);
-    width: 285.95px;
-    height: 100%;
-    margin-right: 20px 
-  }
-
   .flex-row-vcenter-hstart {
     display: flex;
     flex-direction: row;
@@ -40,7 +21,7 @@ p {
   .contents {
     padding: 7px 0px 0px 0px;
     box-sizing: border-box;
-    width: 745px;
+    width: 284px;
     height: 20px;
   }
   
@@ -86,16 +67,38 @@ p {
     box-sizing: border-box;
     width: 12px;
     border-radius: 6px;
-    margin-right: 8px;
     height: 100%;
   }
   
-  .default-indicator-2 {
-    background-color: rgba(255, 255, 255, 1);
-    border: 1px solid rgba(185, 185, 195, 1);
-    box-sizing: border-box;
-    width: 12px;
-    border-radius: 6px;
-    height: 100%;
-  }
-  
+
+  /* Buttonsignup */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+p {
+  margin: 0;
+}
+
+.flex-row-vcenter-hcenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-sign-up {
+  padding: 19px 9px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: rgba(26, 52, 71, 1);
+  width: 285.95px;
+  height: 68px;
+}
+
+.txt-137 {
+  font-size: 18px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  word-wrap: break-word;
+}
