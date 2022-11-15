@@ -1,5 +1,5 @@
 import React from "react"
-import "./finishBookingDataCollect.css"
+import "./finishedBookingDatacollection.css"
 
 import {
   
