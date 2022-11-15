@@ -21,6 +21,7 @@ import Contents from "./pages/contents"
 import AddDrone from './pages/adddrone';
 import AddDroneTwo from './pages/adddronetwo';
 import ADrone from './pages/adrone';
+import RecordList from "./pages/recordList";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
         <Route path='/adrone' element={<ADrone/>} />
         <Route path='/contents' element={<Contents/>} />
 
+        <Route exact path="/recordList" element={<RecordList />} />
       </Routes>
     </Router>
   );
