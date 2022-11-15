@@ -8,7 +8,7 @@ import {
 export default function FinishedBookingSurveillance() {
   return (
     <div className="finished-booking-surveillance flex-col-hstart-vstart clip-contents">
-      <p className="txt-205">Select Role to Register As</p>
+      <p className="txt-205">Your booking is confirmed</p>
      
       <div className="group-346 flex-col">
         <div className="contents flex-col-hstart-vstart">
@@ -24,11 +24,11 @@ export default function FinishedBookingSurveillance() {
             <div className="active-line" />
             <div className="default-indicator" />
             <div className="active-line" />
-            <div className="default-indicator-1" />
+            <div className="default-indicator" />
           </div>
         </div>
 
-        <p className="group-652 txt-152">Your booking is confirmed</p>
+        
 
       </div>
       
