@@ -17,6 +17,7 @@ import FinishedBookingSurveillance from "./pages/finishedBookingSurveillance"
 import FinishedBookingDataCollection from "./pages/finishedBookingDataCollection"
 //import ServiceRequestSelectedDroneDetails from "./pages/ServiceRequestSelectedDroneDetails"
 import Contents from "./pages/contents"
+import ServiceProcessFlow from "./pages/serviceProcessFlow"
 
 
 import AddDrone from './pages/adddrone';
@@ -42,6 +43,7 @@ function App() {
         
         <Route path='/adddrone' element={<AddDrone/>} />
         <Route path='/contents' element={<Contents/>} />
+        <Route path='/serviceProcessFlow' element={<ServiceProcessFlow/>} />
       </Routes>
     </Router>
   );
