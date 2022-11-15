@@ -1,5 +1,5 @@
 import React from 'react';
-import "./styles.css"
+import "./managedrone.css"
 import {
 
     NavLink
@@ -23,7 +23,12 @@ const ManageDrone = () => {
                         alt="Not Found"
                         className="icon-24-outline-key-square"
                     />
-                    <p className="txt-152">Maintenance</p>
+                    <p className="txt-394">Maintenance</p>
+                    <img
+                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/errwlaicvqu-1838%3A2658?alt=media&token=e25238d9-0bbc-4b53-b0e1-f272dc2fcc40"
+                        alt="Not Found"
+                        className="chevron-right-2"
+                    />
                 </div>
                 <div className="list-menu-1 flex-row">
                     <img
@@ -38,16 +43,51 @@ const ManageDrone = () => {
                         className="chevron-right-2"
                     />
                 </div>
-                <div className="group-683">
-                    <div className="list-menu-2 flex-row">
-                        <img
-                            src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/errwlaicvqu-1838%3A2661?alt=media&token=fddb69ac-23d3-48de-8fb9-05f1be08a1ff"
-                            alt="Not Found"
-                            className="discount-shape-2"
-                        />
 
-                        <NavLink className="txt-240" to='/bookdrone' >
-                            My Bookings
+                {/* <div className="list-menu">
+                <img
+                    src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/wh2ld12qx7-1966%3A5167?alt=media&token=d07845e3-34d6-4768-9b47-f55b361f601c"
+                    alt="Not Found"
+                    className="discount-shape-2"
+                />
+
+
+                <p className="txt-394" to='/bookdrone' >
+                    My Bookings
+                </p>
+
+                <img
+                    src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/wh2ld12qx7-1966%3A5178?alt=media&token=33870a76-02f9-4eb5-975e-bf73e609aec0"
+                    alt="Not Found"
+                    className="chevron-right-2"
+                />
+            </div> */}
+                <div className="list-menu-3 flex-row">
+                    <img
+                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/1bshc0ion01-1966%3A3926?alt=media&token=db0a9bea-adf2-4e7e-bbca-f5d9e1b01418"
+                        alt="Not Found"
+                        className="discount-shape-2"
+                    />
+
+                    <p className="txt-971">My bookings</p>
+
+                    <img
+                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/wh2ld12qx7-1966%3A5178?alt=media&token=33870a76-02f9-4eb5-975e-bf73e609aec0"
+                        alt="Not Found"
+                        className="chevron-right-2"
+                    />
+                </div>
+
+
+                <div className="group-683">
+                    <div className="list-menu-3 flex-row">
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/e0uffxmnhrk-1525%3A2323?alt=media&token=2fb08d8a-328d-4e6f-8967-e8c4406f69a0"
+                            alt="Not Found"
+                            className="icon-24-outline-key-square"
+                        />
+                        <NavLink className="txt-971" to='/managedrone' >
+                            Management
                         </NavLink>
 
                         <img
@@ -56,80 +96,43 @@ const ManageDrone = () => {
                             className="chevron-right-2"
                         />
                     </div>
-
                 </div>
-                <div className="group-683">
-                <div className="list-menu-3 flex-row">
-                    <img
-                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/e0uffxmnhrk-1525%3A2323?alt=media&token=2fb08d8a-328d-4e6f-8967-e8c4406f69a0"
-                        alt="Not Found"
-                        className="icon-24-outline-key-square"
-                    />
-                    <NavLink className="txt-971" to='/managedrone' >
-                            Management
-                        </NavLink>
-                    <img
-                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/errwlaicvqu-1838%3A2672?alt=media&token=80e10c5e-ed61-4b58-b2e5-d01d0814d01d"
-                        alt="Not Found"
-                        className="chevron-right-2"
-                    />
-                </div>
-                </div>
-
-
             </div>
+            
             <div id="right">
+            <p className="txt-1031">All Drones</p>
                 <div className="product">
-
-                    {/* <div id='container'>
-    <div className='left'><p className="txt-853">All Drones</p></div>
-    <div className='right'><p className="txt-853">Add Drones</p></div>
-    <div className='right'>
-    <div className="group-139">
-        <div className="group-373">
-        <p className="txt-9107">Add Drone</p>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/7vhd78bvxdn-1818%3A2682?alt=media&token=820e35c1-17e7-4cdc-a8ad-8541edb99e87"
-          alt="Not Found"
-          className="frame-7"
-        />
-        </div>
-        </div>
-    </div>
-    </div> */}
-                    <p className="txt-853">All Drones</p>
-                    <div id="right">
-                        <div className="button-sign-up1 flex-row-vcenter-hcenter">
-                            <NavLink className="txt-856" to="/adddrone">Add Drone</NavLink>
-                        </div>
-                    </div>
-                    <div className="group-221 flex-col">
+                
+                    <img
+                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/lphi0jldsmp-1818%3A2604?alt=media&token=d449e7ae-c955-4954-89e6-1e7f36606dc4"
+                        alt="Not Found"
+                        className="rectangle-30"
+                    />
+                    
+                    <div className="group-22 flex-col">
                         <div className="group-21 flex-row">
-                            <p className="txt-177">Drone ID#</p>
-                            <p className="txt-526">Drone Model</p>
-                            <p className="txt-139">Service</p>
-                            <p className="txt-1044">Status</p>
-                            <p className="txt-526">Delete</p>
-                            <p className="txt-238 flex-hcenter">Modify</p>
+                            <p className="txt-812">Drone ID#</p>
+                            <p className="txt-115">Drone Model</p>
+                            <p className="txt-577">Service</p>
+                            <p className="txt-979">Available, Booked, or Deployed Status</p>
+                            <p className="txt-147">Delete</p>
+                            <p className="txt-498 flex-hcenter">Modify</p>
                         </div>
-
                         <div className="line-5" />
-
                         <div className="line-5" />
-
                         <div className="line-5" />
-
                         <div className="line-5" />
-
                         <div className="line-5" />
-
-                        <div className="line-10" />
+                        <div className="line-5" />
+                        <div className="line-5" />
+                        <div className="line-12" />
                     </div>
-
                 </div>
 
             </div>
+
         </div>
+
 
     );
 };
