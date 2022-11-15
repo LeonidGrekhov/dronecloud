@@ -558,7 +558,6 @@ p {
 }
 
 
-
 .txt-079 {
   font-size: 14px;
   font-family: Poppins, sans-serif;
@@ -1050,3 +1049,34 @@ p {
   width: 30.35px;
   height: 30.35px;
 }
+
+/* Listmenu */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+p {
+  margin: 0;
+}
+
+.list-menu {
+  position: relative;
+  width: 229px;
+  height: 24px;
+}
+
+.txt-550 {
+  position: absolute;
+  top: 2022px;
+  left: 8202px;
+  font-size: 14px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.14px;
+  color: rgba(26, 52, 71, 1);
+  width: 101px;
+  height: 21px;
+  word-wrap: break-word;
+}
+
+
+
