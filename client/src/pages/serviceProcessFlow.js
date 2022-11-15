@@ -26,4 +26,4 @@ export default function DeliveryTime() {
     </div>
   )
 }
-Footer
+//Footer

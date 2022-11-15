@@ -1,5 +1,6 @@
 import React from 'react';
 import "./managedrone.css"
+import "./card.css"
 import {
 
     NavLink
@@ -98,34 +99,38 @@ const ManageDrone = () => {
                     </div>
                 </div>
             </div>
-            
+
             <div id="right">
-            <p className="txt-1031">All Drones</p>
                 <div className="product">
-                
-                    <img
-                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/lphi0jldsmp-1818%3A2604?alt=media&token=d449e7ae-c955-4954-89e6-1e7f36606dc4"
-                        alt="Not Found"
-                        className="rectangle-30"
-                    />
-                    
-                    <div className="group-22 flex-col">
+                    <p className="txt-853" align="left">All Drones
+                    </p>
+                    <div id="right">
+                        <div className="button-sign-up2 flex-row-vcenter-hcenter">
+                            <NavLink className="txt-856" to="/adddrone">Add a Drone</NavLink>
+                        </div>
+                    </div>
+                    <div className="group-221 flex-col">
+
                         <div className="group-21 flex-row">
+
                             <p className="txt-812">Drone ID#</p>
-                            <p className="txt-115">Drone Model</p>
-                            <p className="txt-577">Service</p>
-                            <p className="txt-979">Available, Booked, or Deployed Status</p>
+                            <p className="txt-812">Drone Model</p>
+                            <p className="txt-812">Service</p>
+                            <p className="txt-812">Available, Booked, or Deployed Status</p>
                             <p className="txt-147">Delete</p>
                             <p className="txt-498 flex-hcenter">Modify</p>
                         </div>
-                        <div className="line-5" />
-                        <div className="line-5" />
-                        <div className="line-5" />
-                        <div className="line-5" />
-                        <div className="line-5" />
-                        <div className="line-5" />
-                        <div className="line-5" />
-                        <div className="line-12" />
+
+                        <div style={{ height: '3px', margin: '10px', backgroundColor: '#b5b7c0' }} />
+                        <div style={{ height: '3px', margin: '10px', backgroundColor: '#b5b7c0' }} />
+                        <div style={{ height: '3px', margin: '10px', backgroundColor: '#b5b7c0' }} />
+                        <div style={{ height: '3px', margin: '10px', backgroundColor: '#b5b7c0' }} />
+                        <div style={{ height: '3px', margin: '10px', backgroundColor: '#b5b7c0' }} />
+                        <div style={{ height: '3px', margin: '10px', backgroundColor: '#b5b7c0' }} />
+                        <div style={{ height: '3px', margin: '10px', backgroundColor: '#b5b7c0' }} />
+                        <div style={{ height: '3px', margin: '10px', backgroundColor: '#b5b7c0' }} />
+                        <div style={{ height: '3px', margin: '10px', backgroundColor: '#b5b7c0' }} />
+
                     </div>
                 </div>
 

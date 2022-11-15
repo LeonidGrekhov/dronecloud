@@ -9,6 +9,9 @@ import {
 const AddDroneTwo = () => {
   return (
     <div id="container">
+      
+      
+
         <div id="right">
 
         <div className="product">
@@ -40,10 +43,10 @@ const AddDroneTwo = () => {
                 className="active-indicator-1"
               />
             </div>
-            <p className="txt-817">Step 2: Add Drone</p>
+            <p className="txt-817">Step 3: Drone Added</p>
             
               <p className="txt-706">
-                Finalize Details for the New Drone.
+               New Drone added.
               </p>
            
         </div>
@@ -58,11 +61,11 @@ const AddDroneTwo = () => {
                 <p className="txt-756">ID #1</p>
                 <p className="txt-343">3-Axis Gimbal</p>
               </div>
-              {/* <img
+              <img
                 src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/pj9ds23a69e-1966%3A5551?alt=media&token=2d27eb0b-80be-49ef-8a26-4992c4b1aea8"
                 alt="Not Found"
                 className="ghibli-front-uk1"
-              /> */}
+              />
             </div>
             <p className="txt-163">2.7K Camera</p>
             <p className="txt-756">30 Minute Flight Time</p>
