@@ -17,11 +17,14 @@ import FinishedBookingSurveillance from "./pages/finishedBookingSurveillance"
 import FinishedBookingDataCollection from "./pages/finishedBookingDataCollection"
 //import ServiceRequestSelectedDroneDetails from "./pages/ServiceRequestSelectedDroneDetails"
 import Contents from "./pages/contents"
+import ServiceProcessFlow from "./pages/serviceProcessFlow"
+
+
 
 import AddDrone from './pages/adddrone';
 import AddDroneTwo from './pages/adddronetwo';
+import AddDroneThree from './pages/adddronethree';
 import ADrone from './pages/adrone';
-import RecordList from "./pages/recordList";
 
 function App() {
   return (
@@ -44,10 +47,11 @@ function App() {
         
         <Route path='/adddrone' element={<AddDrone/>} />
         <Route path='/adddronetwo' element={<AddDroneTwo/>} />
+        <Route path='/adddronethree' element={<AddDroneThree/>} />
         <Route path='/adrone' element={<ADrone/>} />
         <Route path='/contents' element={<Contents/>} />
+        <Route path='/serviceProcessFlow' element={<ServiceProcessFlow/>} />
 
-        <Route exact path="/recordList" element={<RecordList />} />
       </Routes>
     </Router>
   );
