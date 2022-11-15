@@ -11,7 +11,13 @@ p {
 .clip-contents {
   overflow: hidden;
 }
-
+.group-652 {
+  position: absolute;
+  top: 122px;
+  none: 0px;
+  width: 1008px;
+  height: 93px;
+}
 .flex-col-hstart-vstart {
   display: flex;
   flex-direction: column;
