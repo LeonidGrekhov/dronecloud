@@ -19,8 +19,9 @@ import FinishedBookingDataCollection from "./pages/finishedBookingDataCollection
 import Contents from "./pages/contents"
 import ServiceProcessFlow from "./pages/serviceProcessFlow"
 
-
 import AddDrone from './pages/adddrone';
+import AddDroneTwo from './pages/adddronetwo';
+import ADrone from './pages/adrone';
 
 function App() {
   return (
@@ -42,8 +43,12 @@ function App() {
         <Route path='/finishedBookingDataCollection' element={<FinishedBookingDataCollection/>} />
         
         <Route path='/adddrone' element={<AddDrone/>} />
+        <Route path='/adddronetwo' element={<AddDroneTwo/>} />
+        <Route path='/adrone' element={<ADrone/>} />
         <Route path='/contents' element={<Contents/>} />
+
         <Route path='/serviceProcessFlow' element={<ServiceProcessFlow/>} />
+
       </Routes>
     </Router>
   );

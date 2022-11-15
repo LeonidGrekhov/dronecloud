@@ -6,7 +6,7 @@ import {
   NavLink
  
 } from '../components/Navbar/NavbarElements';
-const DroneCat1 = () => {
+const AddDroneTwo = () => {
   return (
     <div id="container">
       
@@ -41,31 +41,15 @@ const DroneCat1 = () => {
                 className="active-indicator-1"
               />
             </div>
-        
-            
-           
-        </div>
-        <p className="txt-817">Step 2: Drone Catalog</p>
+            <p className="txt-817">Step 2: Add Drone</p>
             
               <p className="txt-706">
-                Select a service and chose your drone.
+                Finalize Details for the New Drone.
               </p>
-        <div className="rectangle-10">
-            <div className="service-dropdown flex-col-hstart-vstart">
-                <p className="txt-655">Data Collection</p>
-                <div className="group-269 flex-row-vend">
-                    <p className="txt-581">Service</p>
-                    <img
-                    src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/u1hnfaf4y5l-I1966%3A5559%3B1966%3A6447?alt=media&token=45849eee-3db8-4023-859c-7bb76813e04d"
-                    alt="Not Found"
-                    className="vector"
-                    />
-                </div>
-            </div>
-
+           
         </div>
 
-        <p className="txt-443">1 Drones Found</p>
+        {/* <p className="txt-443">1 Drones Found</p> */}
         <div className="group-4710">
           <p className="txt-516">DJI Mini SE</p>
           <div className="group-160 flex-col">
@@ -87,32 +71,26 @@ const DroneCat1 = () => {
             <p className="txt-567">249 grams</p>
             <div className="frame-46 flex-row-vcenter-hsb">
               <div className="price flex-row-vcenter-hcenter">
-                <p className="txt-237">$80</p>
+                <p className="txt-237">$100</p>
                 <p className="txt-448">/ hour</p>
               </div>
-              <div className="cta flex-row-vcenter-hcenter">
-                <p className="txt-957">Select</p>
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/pj9ds23a69e-1966%3A5558?alt=media&token=dca7f995-720a-4514-bd53-7918b8ab4a8d"
-                  alt="Not Found"
-                  className="iconly-light-arrow-right-2"
-                />
-              </div>
+              
             </div>
           </div>
           </div>
 
         </div>
-        <div id='container2'>
-        
+        <div className='container'>
+        <div id="bottom">
             <div id="left">
-                <div className="button-sign-up1 flex-row-vcenter-hcenter">
+                <div className="button-sign-up flex-row-vcenter-hcenter">
                     
                     <NavLink className="txt-856" to='/bookdrone' >
                     Back
                     </NavLink>
                 </div>
             </div>   
+            
             <div id="right">
                 <div className="button-sign-up1 flex-row-vcenter-hcenter">
                     <NavLink className="txt-856" to='/finishedBookingDataCollection' >
@@ -120,7 +98,7 @@ const DroneCat1 = () => {
                     </NavLink>
                 </div>
             </div>  
-        
+        </div>
         </div>
         </div>
         
@@ -132,4 +110,4 @@ const DroneCat1 = () => {
   );
 };
   
-export default DroneCat1;
+export default AddDroneTwo;
