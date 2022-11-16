@@ -1,0 +1,78 @@
+.group-1 {
+    margin-bottom: 3px;
+    box-sizing: border-box;
+    width: fit-content;
+  }
+  .flex-row-1 {
+    display: flex;
+    flex-direction: row;
+  }
+ 
+  .frame-1 {
+    padding: 3px 11px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: rgba(22, 192, 152, 0.38);
+    border: 1px solid rgba(0, 176, 135, 1);
+    width: 80px;
+    height: 100%;
+  }
+  .flex-row-vcenter-hcenter-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  } 
+  .txt-1 {
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.14px;
+    color: rgba(41, 45, 50, 1);
+    word-wrap: break-word;
+    margin-right: 114px;
+  }
+  .txt-2 {
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.14px;
+    color: rgba(41, 45, 50, 1);
+    word-wrap: break-word;
+    margin-right: 52px;
+  }
+  .txt-3 {
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.14px;
+    color: rgba(41, 45, 50, 1);
+    word-wrap: break-word;
+    margin-right: 120px;
+  }
+  .txt-4 {
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.14px;
+    color: rgba(41, 45, 50, 1);
+    word-wrap: break-word;
+    margin-right: 48px;
+  }
+  .txt-5 {
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.14px;
+    color: rgba(41, 45, 50, 1);
+    word-wrap: break-word;
+    margin-right: 57px;
+  }
+  .txt-6 {
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.14px;
+    color: rgba(34, 109, 255, 1);
+    word-wrap: break-word;
+  }

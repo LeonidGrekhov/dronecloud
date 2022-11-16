@@ -1,5 +1,6 @@
 import React from 'react';
 import "./bookdrone.css"
+import "./booking.css"
 import {
 
   NavLink
@@ -89,10 +90,62 @@ const Booking = () => {
             </div>
 
             <div style={{height: '3px', margin: '10px', backgroundColor: 'black'}} />
+
+            <div className="group-1 flex-row-1">
+            <p className="txt-1">ID# 1144</p>
+            <p className="txt-2">West Plot A</p>
+            <p className="txt-3">Crop</p>
+            <p className="txt-4">Rental: Data Collection</p>
+            <p className="txt-5">06/29/2022</p>
+            <div className="frame-1 flex-row-vcenter-hcenter-1">
+              <p className="txt-6">Finished</p>
+            </div>
+          </div>
+
             <div style={{height: '3px', margin: '10px', backgroundColor: 'black'}} />
+            <div className="group-1 flex-row-1">
+            <p className="txt-1">ID# 2342</p>
+            <p className="txt-2">East Plot B</p>
+            <p className="txt-3">Crop</p>
+            <p className="txt-4">Rental Payload</p>
+            <p className="txt-5">06/29/2022</p>
+            <div className="frame-1 flex-row-vcenter-hcenter-1">
+              <p className="txt-6">Finished</p>
+            </div>
+          </div>
             <div style={{height: '3px', margin: '10px', backgroundColor: 'black'}} />
+            <div className="group-1 flex-row-1">
+            <p className="txt-1">ID# 1564</p>
+            <p className="txt-2">South Plot C</p>
+            <p className="txt-3">Crop</p>
+            <p className="txt-4">Surveillance    </p>
+            <p className="txt-5">07/20/2022</p>
+            <div className="frame-1 flex-row-vcenter-hcenter-1">
+              <p className="txt-6">Finished</p>
+            </div>
+          </div>
             <div style={{height: '3px', margin: '10px', backgroundColor: 'black'}} />
+            <div className="group-1 flex-row-1">
+            <p className="txt-1">ID# 5566</p>
+            <p className="txt-2">West Plot A</p>
+            <p className="txt-3">Crop</p>
+            <p className="txt-4">Rental Payload</p>
+            <p className="txt-5">08/11/2022</p>
+            <div className="frame-1 flex-row-vcenter-hcenter-1">
+              <p className="txt-6">Finished</p>
+            </div>
+          </div>
             <div style={{height: '3px', margin: '10px', backgroundColor: 'black'}} />
+            <div className="group-1 flex-row-1">
+            <p className="txt-1">ID# 1144</p>
+            <p className="txt-2">West Plot A</p>
+            <p className="txt-3">Crop</p>
+            <p className="txt-4">Rental: Data Collection</p>
+            <p className="txt-5">03/20/2022</p>
+            <div className="frame-1 flex-row-vcenter-hcenter-1">
+              <p className="txt-6">Finished</p>
+            </div>
+          </div>
             <div style={{height: '3px', margin: '10px', backgroundColor: 'black'}} />
            
 
